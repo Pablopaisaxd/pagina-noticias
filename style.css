@@ -13,7 +13,7 @@ body{
     justify-content: space-between; 
     align-items: center;
     margin-top: 3vh;
-    background-color: beige;
+    /* background-color: beige; */
     height: 15vh;
     width: 90vw;
     margin-left: 4.5vw;
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 5vh;
     width: 90vw;
     margin-left: 4.5vw;
@@ -225,9 +225,21 @@ nav ul li{
     background-color: rgb(111, 255, 0);
 }
 
-.footer{
+.footer1{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     height: 10vh;
     width: 90vw;
     margin-left: 5vw;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+.footer1 img {
+    height: 23vh;
+} 
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

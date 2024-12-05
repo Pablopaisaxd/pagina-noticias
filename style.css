@@ -78,7 +78,22 @@ nav ul li{
     padding: 1rem;
 }
 
-.line{
+/* .line{
+    background-color: rgb(200, 200, 200);
+    width: 80vw;
+    height: 1px;
+    margin-top: 3vh;
+    margin-left: 9vw;
+    margin-bottom: 3vh;
+} */
+
+/* .contenedorline{
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+} */
+
+hr{
     background-color: rgb(200, 200, 200);
     width: 80vw;
     height: 1px;
@@ -88,13 +103,12 @@ nav ul li{
 }
 
 .contenedor_segmentos{
-    height: 25vh;
+    height: 35vh;
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 5rem;
+    grid-template-rows: 1fr ;
 }
 
 .segmento1{
@@ -119,13 +133,12 @@ nav ul li{
 }
 
 .contenedor_noticias{
-    height: 100vh;
+    height: 180vh;
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 10rem;
 }
 
 .noticias1{
@@ -175,27 +188,26 @@ nav ul li{
 }
 
 .contenedor_listados{
-    height: 100vw;
+    height: 80vw;
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 60rem;
 }
 
-.imglist1{
+.imglist{
     display: flex;
     position: relative;
+    top: 20%;
 }
-
 
 .textlist1{
     width: 50%;
     height: auto;
     position: relative;
     left: 30%;
-    top: -40%;
+    top: -25%;
 }
 
 .listados1{

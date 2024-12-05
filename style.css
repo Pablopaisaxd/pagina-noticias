@@ -133,7 +133,7 @@ hr{
 }
 
 .contenedor_noticias{
-    height: 180vh;
+    height: 200vh;
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
@@ -188,7 +188,7 @@ hr{
 }
 
 .contenedor_listados{
-    height: 80vw;
+    height: 100vw;
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
@@ -224,6 +224,11 @@ hr{
 
 .listados4{
     grid-row: 4/5;
+}
+
+.hrnew{
+    position: relative;
+    right: 5%;
 }
 
 

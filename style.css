@@ -13,7 +13,6 @@ body{
     justify-content: space-between; 
     align-items: center;
     margin-top: 3vh;
-    /* background-color: beige; */
     height: 15vh;
     width: 90vw;
     margin-left: 4.5vw;
@@ -52,8 +51,8 @@ nav ul li{
     height: 75vh;
     width: 90vw;
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin-left: 4.5vw;
 }
 
@@ -93,8 +92,9 @@ nav ul li{
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5rem;
 }
 
 .segmento1{
@@ -123,8 +123,9 @@ nav ul li{
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 4;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 10rem;
 }
 
 .noticias1{
@@ -178,8 +179,9 @@ nav ul li{
     width: 90vw;
     margin-left: 4.5vw;
     display: grid;
-    grid-row: 9;
-    margin-top: 35rem;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 60rem;
 }
 
 .imglist1{
@@ -187,18 +189,13 @@ nav ul li{
     position: relative;
 }
 
-.imglist2{
-    display: flex;
-    position: relative;
-    left: 75%;
-}
 
 .textlist1{
-    width: 35%;
+    width: 50%;
     height: auto;
     position: relative;
     left: 30%;
-    top: -50%;
+    top: -40%;
 }
 
 .listados1{

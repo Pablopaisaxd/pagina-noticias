@@ -16,10 +16,46 @@ body{
     height: 15vh;
     width: 90vw;
     margin-left: 4.5vw;
-}
-.up{
-    font-size: 30px;
-}
+} /*Codigo de la barra de busqueda*/
+.buscador {
+    position: relative;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  #busqueda {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  #lupa {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #lupa img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #resultados {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+/*Fin codigo barar busqueda*/
 .subs{
     background-color: rgb(9, 174, 67);
     border: 0;
@@ -249,3 +285,18 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+a {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;  
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;  
+    color: inherit;  
+  }
+  

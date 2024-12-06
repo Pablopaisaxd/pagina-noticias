@@ -1,13 +1,20 @@
-const imagenes = document.querySelectorAll('.contenedor_principal img, .contenedor_noticias img, .contenedor_segmentos img');
-imagenes.forEach((imagen) => {
-    imagen.addEventListener('click', () => {
-        const resumen = imagen.getAttribute('data-resumen');
-        const resumenElemento = document.createElement('div');
-        resumenElemento.innerHTML = `
-      <h2>Resumen</h2>
-      <p>${resumen}</p>
-    `;
-        document.body.appendChild(resumenElemento);
-    });
+document.addEventListener('DOMContentLoaded', function () {
+  const imagenes = document.querySelectorAll('img'); 
+
+  imagenes.forEach((imagen) => {
+      imagen.addEventListener('click', () => {
+          console.log("Imagen clickeada: ", imagen); 
+          const resumen = imagen.getAttribute('data-resumen');
+          console.log("Resumen: ", resumen); 
+
+          
+          if (resumen) {
+              alert('Resumen: ' + resumen); 
+          } else {
+              alert('No hay resumen disponible');
+          }
+      });
+  });
 });
+
 
